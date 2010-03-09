@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE XMI SYSTEM "C:\Documents and Settings\£ukasz\.netbeans\6.7\.uml\config\UML_2.0EMBT.dtd"> --><XMI xmlns:UML="omg.org/UML/1.4" xmi.version="2.0"> <XMI.header> <XMI.metamodel xmi.name="UML" xmi.version="1.4"/> <XMI.documentation> <XMI.exporter> Embarcadero's Describe </XMI.exporter> <XMI.exporterVersion> 6.0 </XMI.exporterVersion> </XMI.documentation> </XMI.header> <XMI.content> <UML:Project xmi.id="DCE.ED1C79EC-CDF1-C732-448F-29D183B53485" mode="Implementation" defaultLanguage="Java" projVersion="6.1.4.837" name="diagramyStol"><UML:Element.ownedElement>
+<UML:Package xmi.id="DCE.4EDF5B4C-B6E4-CA27-29A3-882ACE500374" name="Stó³" owner="DCE.ED1C79EC-CDF1-C732-448F-29D183B53485"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:UseCase xmi.id="DCE.4E0C95D4-051C-C760-A49F-AD2686C51666" name="Opuœæ stó³" owner="DCE.4EDF5B4C-B6E4-CA27-29A3-882ACE500374" associationEnd="DCE.D9F634DA-2E9A-CAE5-065D-8AE1C20342AD" extendedBy="DCE.5B25DE90-07BB-90DD-970F-34326CC26652"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Extend xmi.id="DCE.438F0717-AF9F-2794-9B03-8CB52B310525" owner="DCE.4E0C95D4-051C-C760-A49F-AD2686C51666" target="DCE.0D2724E9-A947-042C-C451-6810B12FA7F4"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Extend></UML:Element.ownedElement></UML:UseCase>
+<UML:UseCase xmi.id="DCE.C45E9222-2555-8D77-94B0-76B87D1AA668" name="Zajmij miejsce" owner="DCE.4EDF5B4C-B6E4-CA27-29A3-882ACE500374" associationEnd="DCE.01AD8574-B875-E308-11E5-E0FAC69937D1" extendedBy="DCE.289727A6-FC46-8C4B-A99D-390D29830D04"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Include xmi.id="DCE.A4E61B40-233D-10CC-F4F8-6B65982994B6" owner="DCE.C45E9222-2555-8D77-94B0-76B87D1AA668" target="DCE.B5D30A54-C402-825B-2EC6-1ACD9D303234"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Include>
+<UML:Extend xmi.id="DCE.C3737318-F2E8-D35C-EB2A-4BE0B8D593ED" owner="DCE.C45E9222-2555-8D77-94B0-76B87D1AA668" target="DCE.0D2724E9-A947-042C-C451-6810B12FA7F4"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Extend></UML:Element.ownedElement></UML:UseCase>
+<UML:UseCase xmi.id="DCE.0D2724E9-A947-042C-C451-6810B12FA7F4" name="WejdŸ na listê oczekuj¹c¹" owner="DCE.4EDF5B4C-B6E4-CA27-29A3-882ACE500374" associationEnd="DCE.6F372C94-419C-FBDB-55D8-9C9A6D017395" extendedBy="DCE.C3737318-F2E8-D35C-EB2A-4BE0B8D593ED DCE.438F0717-AF9F-2794-9B03-8CB52B310525"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:Element.ownedElement>
+
+</UML:Element.ownedElement></UML:UseCase>
+<UML:UseCase xmi.id="DCE.B5D30A54-C402-825B-2EC6-1ACD9D303234" name="WprowadŸ kwotê pocz¹tkow¹" owner="DCE.4EDF5B4C-B6E4-CA27-29A3-882ACE500374" includedBy="DCE.A4E61B40-233D-10CC-F4F8-6B65982994B6" extendedBy="DCE.9EEEE953-DF61-F032-BFE2-00CC701F9C65 DCE.17DAF822-38DA-1F81-E103-B3C393104BB2"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:Element.ownedElement>
+
+</UML:Element.ownedElement></UML:UseCase>
+<UML:UseCase xmi.id="DCE.DD47E1C7-F214-2F62-A152-44127B4C91CB" name="WeŸ udzia³ w rozdaniu" owner="DCE.4EDF5B4C-B6E4-CA27-29A3-882ACE500374" includedBy="DCE.BABAFE8D-5489-3766-AED5-65BDFE2A43AF DCE.ADA7CBA8-E534-E5CD-15F0-0AE7654DC58F" extendedBy="DCE.56B4C7E1-731F-A31A-8274-53AB00FD4CB8 DCE.6F6541D4-CAF6-25E1-26D0-2A0446A79D2F DCE.E9E44A3F-FDE8-DC1F-6BC1-A5C2D30683C5 DCE.B0C71034-14CD-90E4-85ED-A4223B91DCBF DCE.8EB29FA1-5F64-D792-53B1-E6918D3BFD5D DCE.3E2E245A-D03D-B8B1-AF32-153030967CF7 DCE.55F941D7-58AA-F32F-3928-39A2516E1867 DCE.885E49E0-6CD0-A55B-052C-6820C1C902E0 DCE.C40B9531-8E33-58DC-B857-E50177E9D724"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:Element.ownedElement>
+
+
+
+
+
+
+
+
+</UML:Element.ownedElement></UML:UseCase>
+<UML:UseCase xmi.id="DCE.C936AF66-746C-2014-AE16-8ACDA09BCB0A" name="Czekaj na du¿¹ ciemn¹" owner="DCE.4EDF5B4C-B6E4-CA27-29A3-882ACE500374" extendedBy="DCE.E68584EE-E146-2FDF-A935-8FD8AC66E43F"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Include xmi.id="DCE.ADA7CBA8-E534-E5CD-15F0-0AE7654DC58F" owner="DCE.C936AF66-746C-2014-AE16-8ACDA09BCB0A" target="DCE.DD47E1C7-F214-2F62-A152-44127B4C91CB"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Include>
+<UML:Extend xmi.id="DCE.17DAF822-38DA-1F81-E103-B3C393104BB2" owner="DCE.C936AF66-746C-2014-AE16-8ACDA09BCB0A" target="DCE.B5D30A54-C402-825B-2EC6-1ACD9D303234"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Extend></UML:Element.ownedElement></UML:UseCase>
+<UML:UseCase xmi.id="DCE.F3CFBF93-A332-8CF6-D9D5-91AC0C3A88D1" name="Nie czekaj na du¿¹ ciemn¹" owner="DCE.4EDF5B4C-B6E4-CA27-29A3-882ACE500374" extendedBy="DCE.70411095-552F-76F5-5243-91BC1E62D5E8"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Include xmi.id="DCE.BABAFE8D-5489-3766-AED5-65BDFE2A43AF" owner="DCE.F3CFBF93-A332-8CF6-D9D5-91AC0C3A88D1" target="DCE.DD47E1C7-F214-2F62-A152-44127B4C91CB"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Include>
+<UML:Extend xmi.id="DCE.9EEEE953-DF61-F032-BFE2-00CC701F9C65" owner="DCE.F3CFBF93-A332-8CF6-D9D5-91AC0C3A88D1" target="DCE.B5D30A54-C402-825B-2EC6-1ACD9D303234"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Extend></UML:Element.ownedElement></UML:UseCase>
+
+
+<UML:Comment xmi.id="DCE.32E320CE-1850-0FFC-626A-964DDBAA0E82" owner="DCE.4EDF5B4C-B6E4-CA27-29A3-882ACE500374"><UML:Element.presentation>
+
+</UML:Element.presentation>
+<UML:Comment.body>Czekanie na du¿¹ ciemn¹ uznacza w³¹czenie siê do gry dopiero w momencie, kiedy bêdzie nasza kolejka na wp³acanie. Mo¿na usi¹œæ wczeœniej, co wi¹¿e siê z wp³aceniem równowartoœci du¿ej ciemnej w pierwszym rozdaniu, w którym bierzemy udzia³</UML:Comment.body></UML:Comment>
+<UML:UseCase xmi.id="DCE.8E0B0536-38C8-2D18-3BA9-947FDA44E38B" name="Wp³aæ SB" owner="DCE.4EDF5B4C-B6E4-CA27-29A3-882ACE500374" extendedBy="DCE.E969316F-A212-FC8A-A259-4F0DCE9356D1"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Extend xmi.id="DCE.56B4C7E1-731F-A31A-8274-53AB00FD4CB8" owner="DCE.8E0B0536-38C8-2D18-3BA9-947FDA44E38B" target="DCE.DD47E1C7-F214-2F62-A152-44127B4C91CB"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Extend></UML:Element.ownedElement></UML:UseCase>
+<UML:UseCase xmi.id="DCE.79D630D1-B50D-DA63-36E6-9860AD366239" name="Wp³aæ BB" owner="DCE.4EDF5B4C-B6E4-CA27-29A3-882ACE500374" extendedBy="DCE.9EF81B24-AC6E-B978-17CC-ED338517F473"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Extend xmi.id="DCE.6F6541D4-CAF6-25E1-26D0-2A0446A79D2F" owner="DCE.79D630D1-B50D-DA63-36E6-9860AD366239" target="DCE.DD47E1C7-F214-2F62-A152-44127B4C91CB"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Extend></UML:Element.ownedElement></UML:UseCase>
+<UML:UseCase xmi.id="DCE.FE975A59-BB1C-1FDF-AAE3-BC6CA5924780" name="Spasuj" owner="DCE.4EDF5B4C-B6E4-CA27-29A3-882ACE500374" extendedBy="DCE.F397D4B8-FE05-192E-80DE-E8C2B9017A2B"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Extend xmi.id="DCE.8EB29FA1-5F64-D792-53B1-E6918D3BFD5D" owner="DCE.FE975A59-BB1C-1FDF-AAE3-BC6CA5924780" target="DCE.DD47E1C7-F214-2F62-A152-44127B4C91CB"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Extend></UML:Element.ownedElement></UML:UseCase>
+<UML:UseCase xmi.id="DCE.FBAE4F9B-C329-FF66-A274-6EE3FF7EADEE" name="Czekaj" owner="DCE.4EDF5B4C-B6E4-CA27-29A3-882ACE500374" extendedBy="DCE.F728FF64-D0BB-FA37-3006-047AD94174D4"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Extend xmi.id="DCE.885E49E0-6CD0-A55B-052C-6820C1C902E0" owner="DCE.FBAE4F9B-C329-FF66-A274-6EE3FF7EADEE" target="DCE.DD47E1C7-F214-2F62-A152-44127B4C91CB"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Extend></UML:Element.ownedElement></UML:UseCase>
+<UML:UseCase xmi.id="DCE.9FD243BD-86B5-85A1-BC2F-9FCE02425E4E" name="SprawdŸ" owner="DCE.4EDF5B4C-B6E4-CA27-29A3-882ACE500374" extendedBy="DCE.C7AF2D37-1C1B-46F8-9027-C170740A1CCB"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Extend xmi.id="DCE.3E2E245A-D03D-B8B1-AF32-153030967CF7" owner="DCE.9FD243BD-86B5-85A1-BC2F-9FCE02425E4E" target="DCE.DD47E1C7-F214-2F62-A152-44127B4C91CB"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Extend></UML:Element.ownedElement></UML:UseCase>
+<UML:UseCase xmi.id="DCE.363FAA1F-A4C6-3957-C7DC-790D740B1CBF" name="Podbij" owner="DCE.4EDF5B4C-B6E4-CA27-29A3-882ACE500374" extendedBy="DCE.E1D87D9A-4C71-A34C-D336-F449649AAFCF"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:Element.ownedElement>
+
+<UML:Extend xmi.id="DCE.B0C71034-14CD-90E4-85ED-A4223B91DCBF" owner="DCE.363FAA1F-A4C6-3957-C7DC-790D740B1CBF" target="DCE.DD47E1C7-F214-2F62-A152-44127B4C91CB"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Extend></UML:Element.ownedElement></UML:UseCase>
+<UML:UseCase xmi.id="DCE.5B8C5E47-16C5-B4F5-9BD9-DB152AF5A016" name="Przebij" owner="DCE.4EDF5B4C-B6E4-CA27-29A3-882ACE500374" extendedBy="DCE.D2D28221-1621-88EE-6A23-4544C6E599C0"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Extend xmi.id="DCE.E9E44A3F-FDE8-DC1F-6BC1-A5C2D30683C5" owner="DCE.5B8C5E47-16C5-B4F5-9BD9-DB152AF5A016" target="DCE.DD47E1C7-F214-2F62-A152-44127B4C91CB"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Extend></UML:Element.ownedElement></UML:UseCase>
+<UML:UseCase xmi.id="DCE.9098C54B-8D48-E409-DEB8-830C9D45D4DC" name="Omiñ kolejne rozdania" owner="DCE.4EDF5B4C-B6E4-CA27-29A3-882ACE500374"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:UseCase>
+<UML:UseCase xmi.id="DCE.F79D9A03-20EC-0A51-A499-EB964DC2C222" name="Poka¿ karty" owner="DCE.4EDF5B4C-B6E4-CA27-29A3-882ACE500374" extendedBy="DCE.0BBE63A3-E7B3-DFD9-52D5-7F2FF6F566E8"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Extend xmi.id="DCE.55F941D7-58AA-F32F-3928-39A2516E1867" owner="DCE.F79D9A03-20EC-0A51-A499-EB964DC2C222" target="DCE.DD47E1C7-F214-2F62-A152-44127B4C91CB"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Extend></UML:Element.ownedElement></UML:UseCase>
+<UML:UseCase xmi.id="DCE.C2B071A4-7C27-C4DD-866C-6D749EAA3726" name="Zrzuæ karty" owner="DCE.4EDF5B4C-B6E4-CA27-29A3-882ACE500374" extendedBy="DCE.16524547-8B91-8D07-DF63-E432771D0429"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Extend xmi.id="DCE.C40B9531-8E33-58DC-B857-E50177E9D724" owner="DCE.C2B071A4-7C27-C4DD-866C-6D749EAA3726" target="DCE.DD47E1C7-F214-2F62-A152-44127B4C91CB"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Extend></UML:Element.ownedElement></UML:UseCase>
+<UML:UseCase xmi.id="DCE.E5CE0972-51AD-8521-814F-8F341C9C6BF9" name="Dodaj ¿etony" owner="DCE.4EDF5B4C-B6E4-CA27-29A3-882ACE500374"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:UseCase>
+<UML:Comment xmi.id="DCE.F75E1E0B-809D-12CA-30AA-0BA9D5367AEF" owner="DCE.4EDF5B4C-B6E4-CA27-29A3-882ACE500374" annotatedElement="DCE.E5CE0972-51AD-8521-814F-8F341C9C6BF9"><UML:Element.presentation>
+
+
+
+</UML:Element.presentation>
+<UML:Comment.body>W przypadku sp³ukania siê gracza</UML:Comment.body></UML:Comment>
+</UML:Element.ownedElement></UML:Package>
+<UML:Actor xmi.id="DCE.30CC6D5F-B34F-288F-964C-1981308AC669" name="Gracz" owner="DCE.ED1C79EC-CDF1-C732-448F-29D183B53485" associationEnd="DCE.00527535-F923-6F5B-8819-164681F28219 DCE.8FDB20DA-4EE9-80D9-D32C-5C96B85EDF9B DCE.F381EB9E-CE89-EB0B-66BC-D992691210EE"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Actor>
+<UML:Association xmi.id="DCE.9C89711D-1DD0-CDE6-2296-2178015D0DA8" owner="DCE.ED1C79EC-CDF1-C732-448F-29D183B53485"><UML:Association.end>
+<UML:AssociationEnd xmi.id="DCE.00527535-F923-6F5B-8819-164681F28219" visibility="private" association="DCE.9C89711D-1DD0-CDE6-2296-2178015D0DA8" type="DCE.30CC6D5F-B34F-288F-964C-1981308AC669"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.1D01D831-2DD8-7388-E59F-9E38DCD5F287"/></UML:TypedElement.multiplicity></UML:AssociationEnd>
+<UML:AssociationEnd xmi.id="DCE.01AD8574-B875-E308-11E5-E0FAC69937D1" visibility="private" association="DCE.9C89711D-1DD0-CDE6-2296-2178015D0DA8" type="DCE.C45E9222-2555-8D77-94B0-76B87D1AA668"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.5043FEAF-7AF4-1A60-DE50-E43CBB69D37E"/></UML:TypedElement.multiplicity></UML:AssociationEnd></UML:Association.end><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Association>
+<UML:Association xmi.id="DCE.1CBA9E71-A71C-580B-2FF4-053A50BE838A" owner="DCE.ED1C79EC-CDF1-C732-448F-29D183B53485"><UML:Association.end>
+<UML:AssociationEnd xmi.id="DCE.8FDB20DA-4EE9-80D9-D32C-5C96B85EDF9B" visibility="private" association="DCE.1CBA9E71-A71C-580B-2FF4-053A50BE838A" type="DCE.30CC6D5F-B34F-288F-964C-1981308AC669"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.4FE2C155-BA48-8135-A475-CD186AD7402E"/></UML:TypedElement.multiplicity></UML:AssociationEnd>
+<UML:AssociationEnd xmi.id="DCE.6F372C94-419C-FBDB-55D8-9C9A6D017395" visibility="private" association="DCE.1CBA9E71-A71C-580B-2FF4-053A50BE838A" type="DCE.0D2724E9-A947-042C-C451-6810B12FA7F4"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.AED9651A-C4BD-02AF-E761-0BC58846807C"/></UML:TypedElement.multiplicity></UML:AssociationEnd></UML:Association.end><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Association>
+<UML:Association xmi.id="DCE.7F08233C-C99C-0B65-88D1-15FE3CDA3337" owner="DCE.ED1C79EC-CDF1-C732-448F-29D183B53485"><UML:Association.end>
+<UML:AssociationEnd xmi.id="DCE.F381EB9E-CE89-EB0B-66BC-D992691210EE" visibility="private" association="DCE.7F08233C-C99C-0B65-88D1-15FE3CDA3337" type="DCE.30CC6D5F-B34F-288F-964C-1981308AC669"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.7EAC109C-611D-AFB5-A3D6-CD3F02B4A955"/></UML:TypedElement.multiplicity></UML:AssociationEnd>
+<UML:AssociationEnd xmi.id="DCE.D9F634DA-2E9A-CAE5-065D-8AE1C20342AD" visibility="private" association="DCE.7F08233C-C99C-0B65-88D1-15FE3CDA3337" type="DCE.4E0C95D4-051C-C760-A49F-AD2686C51666"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.82596AA8-F1F9-64F0-F4F4-7F60FAF91810"/></UML:TypedElement.multiplicity></UML:AssociationEnd></UML:Association.end><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Association>
+
+
+<UML:Package xmi.id="DCE.ACF3BF7A-4417-ECD6-053B-1F783F1B564F" name="Stolik" owner="DCE.ED1C79EC-CDF1-C732-448F-29D183B53485"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:UseCase xmi.id="DCE.533D2F17-6A92-DC6E-1D34-D8F6B7ACC540" name="Unnamed" owner="DCE.ACF3BF7A-4417-ECD6-053B-1F783F1B564F"><UML:Element.presentation>
+</UML:Element.presentation></UML:UseCase></UML:Element.ownedElement></UML:Package>
+<UML:Activity xmi.id="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" name="diagram czynnosci licytacja" owner="DCE.ED1C79EC-CDF1-C732-448F-29D183B53485"><UML:Element.ownedElement>
+<UML:InitialNode xmi.id="DCE.EE32293C-26F7-C0C9-1562-D252E94C4095" name="Unnamed" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" outgoing="DCE.F27823C3-AEC1-2C46-60A4-0D446FE3202B DCE.CC50CA38-4DCE-60F9-EC04-1DFC44AE5B34" group="DCE.D1CC1EBC-7A6F-C57D-E817-859793917D5C"><UML:Element.presentation>
+
+
+
+
+</UML:Element.presentation></UML:InitialNode>
+
+<UML:MultiFlow xmi.id="DCE.F27823C3-AEC1-2C46-60A4-0D446FE3202B" source="DCE.EE32293C-26F7-C0C9-1562-D252E94C4095" target="DCE.679ED625-A81C-0E1A-C010-BEE1B61D82B4" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:MultiFlow>
+<UML:Comment xmi.id="DCE.20DDE03D-C1FC-7FD0-8C21-2DDE1C59F546" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B"><UML:Element.presentation>
+
+</UML:Element.presentation>
+<UML:Comment.body>Schemat licytacji jest taki sam w ka¿dym z 4 etapów rozdania: preflop/flop/turn/river</UML:Comment.body></UML:Comment>
+<UML:InvocationNode xmi.id="DCE.7617CC3A-520C-E1DF-7D52-821987E6C703" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" incoming="DCE.1BAB4C03-0302-5836-0C0C-09AEB99A249A DCE.CC50CA38-4DCE-60F9-EC04-1DFC44AE5B34" name="Rozpoczêcie licytacji" group="DCE.D1CC1EBC-7A6F-C57D-E817-859793917D5C" outgoing="DCE.B086F1BA-C149-39A0-F9D8-6B567C20768C" clientDependency="DCE.B11B3D01-8B4E-E21D-E71F-3E5E92E8232D"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+
+
+
+
+
+
+<UML:MultiFlow xmi.id="DCE.D2057A08-9F71-7056-F2CF-F809A3C23B9A" source="DCE.F6A5AF30-F69F-B59B-54EB-18203F3C1C56" target="DCE.E4D890A9-A13B-1E0F-ED7B-8C53E35FD00C" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:ActivityPartition xmi.id="DCE.98510862-BB23-578D-19DF-D34063644640" name="Licytacja" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" outgoing="DCE.1BAB4C03-0302-5836-0C0C-09AEB99A249A"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:ActivityPartition xmi.id="DCE.D1CC1EBC-7A6F-C57D-E817-859793917D5C" name="Unnamed" owner="DCE.98510862-BB23-578D-19DF-D34063644640" nodeContents="DCE.EE32293C-26F7-C0C9-1562-D252E94C4095 DCE.7617CC3A-520C-E1DF-7D52-821987E6C703 DCE.BCE03B5F-B0EA-72F3-2676-5FAFDE2BD89B DCE.1A907ABF-4922-7503-B969-F4B823D9E94C DCE.28FDD002-8CC9-7949-B7DD-CB071B95A9F8 DCE.93F81698-D305-F7D4-AAF8-2FADDC8043C7 DCE.1464874C-4592-C983-A9FC-E12ADEC3ADFB DCE.53AF1AEF-64C4-D13B-80E0-42EDB65833AB DCE.3D8A27CC-213F-62CB-96EA-9C034440D418 DCE.2FD1FE3B-F9C0-4BC1-C251-D1ECBED000DF DCE.8394E2E3-EB74-7D7C-94AE-5A656EBF0E4E DCE.333D6B76-55C3-1913-1D12-ECF5664AD196"><UML:Element.presentation>
+
+
+
+
+
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Comment xmi.id="DCE.9DFE5EDD-B0AB-183E-B662-9D086FEE9C99" owner="DCE.D1CC1EBC-7A6F-C57D-E817-859793917D5C" annotatedElement="DCE.3D8A27CC-213F-62CB-96EA-9C034440D418"><UML:Element.presentation>
+
+</UML:Element.presentation>
+<UML:Comment.body>kolejny gracz</UML:Comment.body></UML:Comment></UML:Element.ownedElement></UML:ActivityPartition></UML:Element.ownedElement></UML:ActivityPartition>
+<UML:ActivityPartition xmi.id="DCE.86281DB7-83FD-9E45-6808-63C59B341D56" name="Ruch gracza nr_gracza" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" supplierDependency="" incoming="" outgoing=""><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:ActivityPartition xmi.id="DCE.3B41F1C8-0846-9F05-36E1-E84FE74EC771" name="Unnamed" owner="DCE.86281DB7-83FD-9E45-6808-63C59B341D56" nodeContents="DCE.F4A943F8-DA2B-6106-1018-AEDA51B0DE03 DCE.523D727E-E714-97F0-03A8-5A21F68FF2E5 DCE.3646AE95-1BDA-7040-DBCC-6EEA469ABD63 DCE.748BFED0-409B-0BE0-870F-068F6FDFBC30 DCE.77FBBB87-B9F0-B793-C0BD-C6E551CAE849 DCE.E117545F-916D-C1D0-E71F-40A0144881BA DCE.DD9A6F12-AABD-6A34-AE6E-DAF2596FAF4C DCE.11C417BB-0BDE-20A1-6108-170C7D4AEB9C DCE.1DA0346F-88E8-AFB5-B43E-5112E6790CF9 DCE.7E8C30BE-D229-81A6-DC9B-B1EF385DF8C7"><UML:Element.presentation>
+
+
+
+
+
+</UML:Element.presentation></UML:ActivityPartition></UML:Element.ownedElement></UML:ActivityPartition>
+<UML:ParameterUsageNode xmi.id="DCE.F4A943F8-DA2B-6106-1018-AEDA51B0DE03" group="DCE.3B41F1C8-0846-9F05-36E1-E84FE74EC771" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" incoming="DCE.B086F1BA-C149-39A0-F9D8-6B567C20768C DCE.A0A5F946-D4A4-20DB-4834-6F5CB7FAD17D" name="stan gry" supplierDependency="DCE.B11B3D01-8B4E-E21D-E71F-3E5E92E8232D" clientDependency="DCE.FDD763EA-16B6-81AC-9090-121719E71C22"><UML:Element.presentation>
+</UML:Element.presentation></UML:ParameterUsageNode>
+
+<UML:MultiFlow xmi.id="DCE.CC50CA38-4DCE-60F9-EC04-1DFC44AE5B34" source="DCE.EE32293C-26F7-C0C9-1562-D252E94C4095" target="DCE.7617CC3A-520C-E1DF-7D52-821987E6C703" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:ParameterUsageNode xmi.id="DCE.BCE03B5F-B0EA-72F3-2676-5FAFDE2BD89B" group="DCE.D1CC1EBC-7A6F-C57D-E817-859793917D5C" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" name="decyzja" clientDependency="DCE.4DC56C92-FF0A-8002-5F95-8910F4F21CA3" incoming="DCE.F8A251D9-350B-C2D6-54CD-2F2B194B7425 DCE.83A1930B-5606-701E-1DDD-789FB315F5E0 DCE.247B3916-2310-2943-FACD-C91FA25AD07F DCE.4C6BD412-75DE-982A-289A-E563C06359BF DCE.E0B48CB0-2CEA-D6C8-EE95-FFC15B00EDB3"><UML:Element.presentation>
+</UML:Element.presentation></UML:ParameterUsageNode>
+<UML:DecisionMergeNode xmi.id="DCE.28FDD002-8CC9-7949-B7DD-CB071B95A9F8" name="Unnamed" group="DCE.D1CC1EBC-7A6F-C57D-E817-859793917D5C" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" supplierDependency="DCE.4DC56C92-FF0A-8002-5F95-8910F4F21CA3" outgoing="DCE.27056D79-855C-083B-2E89-284DB06646A6 DCE.2145D1C8-1CE5-78E8-14CB-12D7AB4A368D DCE.4008ED4A-E3F5-9A2B-6CC4-7B6EAB6C0DAE"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:DecisionMergeNode>
+<UML:InvocationNode xmi.id="DCE.1464874C-4592-C983-A9FC-E12ADEC3ADFB" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" group="DCE.D1CC1EBC-7A6F-C57D-E817-859793917D5C" incoming="DCE.27056D79-855C-083B-2E89-284DB06646A6" name="zmniejsz liczbê graj¹cych" outgoing="DCE.A8362AF7-94DB-260F-BECF-8432DD3E5A20"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:MultiFlow xmi.id="DCE.27056D79-855C-083B-2E89-284DB06646A6" source="DCE.28FDD002-8CC9-7949-B7DD-CB071B95A9F8" target="DCE.1464874C-4592-C983-A9FC-E12ADEC3ADFB" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" name="[ gracz spasowa³ ]"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+
+<UML:MultiFlow xmi.id="DCE.2145D1C8-1CE5-78E8-14CB-12D7AB4A368D" source="DCE.28FDD002-8CC9-7949-B7DD-CB071B95A9F8" target="DCE.2FD1FE3B-F9C0-4BC1-C251-D1ECBED000DF" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" name="[ gracz sprawdzi³ ]"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+
+<UML:MultiFlow xmi.id="DCE.4008ED4A-E3F5-9A2B-6CC4-7B6EAB6C0DAE" source="DCE.28FDD002-8CC9-7949-B7DD-CB071B95A9F8" target="DCE.8394E2E3-EB74-7D7C-94AE-5A656EBF0E4E" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" name="[ postawi³ zak³ad ]"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:DecisionMergeNode xmi.id="DCE.8394E2E3-EB74-7D7C-94AE-5A656EBF0E4E" name="Unnamed" group="DCE.D1CC1EBC-7A6F-C57D-E817-859793917D5C" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" incoming="DCE.4008ED4A-E3F5-9A2B-6CC4-7B6EAB6C0DAE" outgoing="DCE.73F98ABC-4783-D2D3-726B-B4CB3FC26078 DCE.948051BC-36AF-192D-E94C-38F3F0E92A84"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:DecisionMergeNode>
+<UML:DecisionMergeNode xmi.id="DCE.2FD1FE3B-F9C0-4BC1-C251-D1ECBED000DF" name="Unnamed" group="DCE.D1CC1EBC-7A6F-C57D-E817-859793917D5C" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" incoming="DCE.2145D1C8-1CE5-78E8-14CB-12D7AB4A368D" outgoing="DCE.9D013251-0F2F-220C-5EB2-5BE8C6CDA8E6 DCE.5AB8ACA5-A3D5-DE0B-54E9-B63E67C37043"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:DecisionMergeNode>
+<UML:ActivityFinalNode xmi.id="DCE.333D6B76-55C3-1913-1D12-ECF5664AD196" name="Unnamed" group="DCE.D1CC1EBC-7A6F-C57D-E817-859793917D5C" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" incoming="DCE.9D013251-0F2F-220C-5EB2-5BE8C6CDA8E6 DCE.49EA52D6-DBE4-2492-90DA-950010E2DB21"><UML:Element.presentation>
+
+
+</UML:Element.presentation></UML:ActivityFinalNode>
+<UML:MultiFlow xmi.id="DCE.9D013251-0F2F-220C-5EB2-5BE8C6CDA8E6" source="DCE.2FD1FE3B-F9C0-4BC1-C251-D1ECBED000DF" target="DCE.333D6B76-55C3-1913-1D12-ECF5664AD196" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" name="nr_gracza=ostatni_grajacy"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:DecisionMergeNode xmi.id="DCE.53AF1AEF-64C4-D13B-80E0-42EDB65833AB" name="Unnamed" group="DCE.D1CC1EBC-7A6F-C57D-E817-859793917D5C" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" incoming="DCE.A8362AF7-94DB-260F-BECF-8432DD3E5A20" outgoing="DCE.49EA52D6-DBE4-2492-90DA-950010E2DB21 DCE.6DD26D3F-587C-6CC0-4DF5-0E1A2C063230"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:DecisionMergeNode>
+<UML:MultiFlow xmi.id="DCE.A8362AF7-94DB-260F-BECF-8432DD3E5A20" source="DCE.1464874C-4592-C983-A9FC-E12ADEC3ADFB" target="DCE.53AF1AEF-64C4-D13B-80E0-42EDB65833AB" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:MultiFlow xmi.id="DCE.49EA52D6-DBE4-2492-90DA-950010E2DB21" source="DCE.53AF1AEF-64C4-D13B-80E0-42EDB65833AB" target="DCE.333D6B76-55C3-1913-1D12-ECF5664AD196" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" name="[grajacych==1 i/lub pozostali sami ALL IN]"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:JoinForkNode xmi.id="DCE.3D8A27CC-213F-62CB-96EA-9C034440D418" name="Unnamed" group="DCE.D1CC1EBC-7A6F-C57D-E817-859793917D5C" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" incoming="DCE.6DD26D3F-587C-6CC0-4DF5-0E1A2C063230 DCE.5AB8ACA5-A3D5-DE0B-54E9-B63E67C37043 DCE.73F98ABC-4783-D2D3-726B-B4CB3FC26078 DCE.948051BC-36AF-192D-E94C-38F3F0E92A84" outgoing="DCE.A0A5F946-D4A4-20DB-4834-6F5CB7FAD17D"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:JoinForkNode>
+<UML:MultiFlow xmi.id="DCE.6DD26D3F-587C-6CC0-4DF5-0E1A2C063230" source="DCE.53AF1AEF-64C4-D13B-80E0-42EDB65833AB" target="DCE.3D8A27CC-213F-62CB-96EA-9C034440D418" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+
+<UML:MultiFlow xmi.id="DCE.A0A5F946-D4A4-20DB-4834-6F5CB7FAD17D" source="DCE.3D8A27CC-213F-62CB-96EA-9C034440D418" target="DCE.F4A943F8-DA2B-6106-1018-AEDA51B0DE03" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" name="nr_gracza++ "><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:MultiFlow xmi.id="DCE.5AB8ACA5-A3D5-DE0B-54E9-B63E67C37043" source="DCE.2FD1FE3B-F9C0-4BC1-C251-D1ECBED000DF" target="DCE.3D8A27CC-213F-62CB-96EA-9C034440D418" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:MultiFlow xmi.id="DCE.73F98ABC-4783-D2D3-726B-B4CB3FC26078" source="DCE.8394E2E3-EB74-7D7C-94AE-5A656EBF0E4E" target="DCE.3D8A27CC-213F-62CB-96EA-9C034440D418" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" name="[ przebi³ ]"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:MultiFlow xmi.id="DCE.948051BC-36AF-192D-E94C-38F3F0E92A84" source="DCE.8394E2E3-EB74-7D7C-94AE-5A656EBF0E4E" target="DCE.3D8A27CC-213F-62CB-96EA-9C034440D418" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" name="[ gracz postawi³ ]"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:DecisionMergeNode xmi.id="DCE.3646AE95-1BDA-7040-DBCC-6EEA469ABD63" name="Unnamed" group="DCE.3B41F1C8-0846-9F05-36E1-E84FE74EC771" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" supplierDependency="DCE.FDD763EA-16B6-81AC-9090-121719E71C22" outgoing="DCE.704959FF-1D7C-CA3D-B95D-5AC3F25B7F73 DCE.1733FEE2-07C3-5B11-002E-3EF7B9300E6B"><UML:Element.presentation>
+
+
+</UML:Element.presentation></UML:DecisionMergeNode>
+<UML:DecisionMergeNode xmi.id="DCE.748BFED0-409B-0BE0-870F-068F6FDFBC30" name="Unnamed" group="DCE.3B41F1C8-0846-9F05-36E1-E84FE74EC771" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" incoming="DCE.704959FF-1D7C-CA3D-B95D-5AC3F25B7F73" outgoing="DCE.B4B67A37-EA5E-80E8-60D1-47ABBCAC3C3F DCE.30C64737-5F45-9B56-5ABE-161D7A0363B6 DCE.10DA1CE9-4AAA-DFE1-CA60-19A7099814E6"><UML:Element.presentation>
+
+
+</UML:Element.presentation></UML:DecisionMergeNode>
+<UML:MultiFlow xmi.id="DCE.704959FF-1D7C-CA3D-B95D-5AC3F25B7F73" source="DCE.3646AE95-1BDA-7040-DBCC-6EEA469ABD63" target="DCE.748BFED0-409B-0BE0-870F-068F6FDFBC30" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" name="[ zak³ad zosta³ postawiony ]"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:DecisionMergeNode xmi.id="DCE.77FBBB87-B9F0-B793-C0BD-C6E551CAE849" name="Unnamed" group="DCE.3B41F1C8-0846-9F05-36E1-E84FE74EC771" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" incoming="DCE.1733FEE2-07C3-5B11-002E-3EF7B9300E6B" outgoing="DCE.78F047EB-F915-1BC2-D199-85504A56FC2A DCE.AECFB3F9-3AAF-A59C-014F-D5FCED710D52 DCE.C1F7000B-65D7-7BC3-BAB7-B96EE5767EE2"><UML:Element.presentation>
+
+
+</UML:Element.presentation></UML:DecisionMergeNode>
+<UML:MultiFlow xmi.id="DCE.1733FEE2-07C3-5B11-002E-3EF7B9300E6B" source="DCE.3646AE95-1BDA-7040-DBCC-6EEA469ABD63" target="DCE.77FBBB87-B9F0-B793-C0BD-C6E551CAE849" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" name="[ nie ma zak³adu ]"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:InvocationNode xmi.id="DCE.E117545F-916D-C1D0-E71F-40A0144881BA" group="DCE.3B41F1C8-0846-9F05-36E1-E84FE74EC771" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" name="Gracz spasowa³" incoming="DCE.B4B67A37-EA5E-80E8-60D1-47ABBCAC3C3F DCE.78F047EB-F915-1BC2-D199-85504A56FC2A" outgoing="DCE.944CEED0-94DC-893F-4745-F0B38F46A7B8 DCE.F8A251D9-350B-C2D6-54CD-2F2B194B7425"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:MultiFlow xmi.id="DCE.B4B67A37-EA5E-80E8-60D1-47ABBCAC3C3F" source="DCE.748BFED0-409B-0BE0-870F-068F6FDFBC30" target="DCE.E117545F-916D-C1D0-E71F-40A0144881BA" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:MultiFlow xmi.id="DCE.78F047EB-F915-1BC2-D199-85504A56FC2A" source="DCE.77FBBB87-B9F0-B793-C0BD-C6E551CAE849" target="DCE.E117545F-916D-C1D0-E71F-40A0144881BA" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:InvocationNode xmi.id="DCE.523D727E-E714-97F0-03A8-5A21F68FF2E5" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" group="DCE.3B41F1C8-0846-9F05-36E1-E84FE74EC771" incoming="DCE.944CEED0-94DC-893F-4745-F0B38F46A7B8"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:MultiFlow xmi.id="DCE.944CEED0-94DC-893F-4745-F0B38F46A7B8" source="DCE.E117545F-916D-C1D0-E71F-40A0144881BA" target="DCE.523D727E-E714-97F0-03A8-5A21F68FF2E5" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:MultiFlow xmi.id="DCE.F8A251D9-350B-C2D6-54CD-2F2B194B7425" source="DCE.E117545F-916D-C1D0-E71F-40A0144881BA" target="DCE.BCE03B5F-B0EA-72F3-2676-5FAFDE2BD89B" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:InvocationNode xmi.id="DCE.1DA0346F-88E8-AFB5-B43E-5112E6790CF9" group="DCE.3B41F1C8-0846-9F05-36E1-E84FE74EC771" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" name="Gracz sprawdzi³" incoming="DCE.30C64737-5F45-9B56-5ABE-161D7A0363B6" outgoing="DCE.83A1930B-5606-701E-1DDD-789FB315F5E0"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:MultiFlow xmi.id="DCE.30C64737-5F45-9B56-5ABE-161D7A0363B6" source="DCE.748BFED0-409B-0BE0-870F-068F6FDFBC30" target="DCE.1DA0346F-88E8-AFB5-B43E-5112E6790CF9" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:MultiFlow xmi.id="DCE.83A1930B-5606-701E-1DDD-789FB315F5E0" source="DCE.1DA0346F-88E8-AFB5-B43E-5112E6790CF9" target="DCE.BCE03B5F-B0EA-72F3-2676-5FAFDE2BD89B" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:InvocationNode xmi.id="DCE.7E8C30BE-D229-81A6-DC9B-B1EF385DF8C7" group="DCE.3B41F1C8-0846-9F05-36E1-E84FE74EC771" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" name="Gracz przebi³ zak³ad" incoming="DCE.10DA1CE9-4AAA-DFE1-CA60-19A7099814E6" outgoing="DCE.247B3916-2310-2943-FACD-C91FA25AD07F"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:MultiFlow xmi.id="DCE.10DA1CE9-4AAA-DFE1-CA60-19A7099814E6" source="DCE.748BFED0-409B-0BE0-870F-068F6FDFBC30" target="DCE.7E8C30BE-D229-81A6-DC9B-B1EF385DF8C7" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:MultiFlow xmi.id="DCE.247B3916-2310-2943-FACD-C91FA25AD07F" source="DCE.7E8C30BE-D229-81A6-DC9B-B1EF385DF8C7" target="DCE.BCE03B5F-B0EA-72F3-2676-5FAFDE2BD89B" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" name="o ile"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:InvocationNode xmi.id="DCE.DD9A6F12-AABD-6A34-AE6E-DAF2596FAF4C" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" group="DCE.3B41F1C8-0846-9F05-36E1-E84FE74EC771" incoming="DCE.AECFB3F9-3AAF-A59C-014F-D5FCED710D52" name="Gracz czeka" outgoing="DCE.4C6BD412-75DE-982A-289A-E563C06359BF"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:MultiFlow xmi.id="DCE.AECFB3F9-3AAF-A59C-014F-D5FCED710D52" source="DCE.77FBBB87-B9F0-B793-C0BD-C6E551CAE849" target="DCE.DD9A6F12-AABD-6A34-AE6E-DAF2596FAF4C" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:MultiFlow xmi.id="DCE.4C6BD412-75DE-982A-289A-E563C06359BF" source="DCE.DD9A6F12-AABD-6A34-AE6E-DAF2596FAF4C" target="DCE.BCE03B5F-B0EA-72F3-2676-5FAFDE2BD89B" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:InvocationNode xmi.id="DCE.11C417BB-0BDE-20A1-6108-170C7D4AEB9C" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" group="DCE.3B41F1C8-0846-9F05-36E1-E84FE74EC771" incoming="DCE.C1F7000B-65D7-7BC3-BAB7-B96EE5767EE2" name="Gracz stawia zak³ad" outgoing="DCE.E0B48CB0-2CEA-D6C8-EE95-FFC15B00EDB3"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:MultiFlow xmi.id="DCE.C1F7000B-65D7-7BC3-BAB7-B96EE5767EE2" source="DCE.77FBBB87-B9F0-B793-C0BD-C6E551CAE849" target="DCE.11C417BB-0BDE-20A1-6108-170C7D4AEB9C" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:MultiFlow xmi.id="DCE.E0B48CB0-2CEA-D6C8-EE95-FFC15B00EDB3" source="DCE.11C417BB-0BDE-20A1-6108-170C7D4AEB9C" target="DCE.BCE03B5F-B0EA-72F3-2676-5FAFDE2BD89B" owner="DCE.42660611-3212-2B7A-5693-7AE2A0A8071B" name="ile"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow></UML:Element.ownedElement></UML:Activity>
+
+<UML:Activity xmi.id="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" name="diagram czynnosci rozdanie" owner="DCE.ED1C79EC-CDF1-C732-448F-29D183B53485"><UML:Element.ownedElement>
+<UML:InvocationNode xmi.id="DCE.A5B4A710-7DDE-9D26-5A36-9966C22A4425" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" incoming="DCE.6B8C7985-B654-7A66-1C34-8706BECD082D" name="SprawdŸ czy jest odpowiednia liczba graczy" outgoing="DCE.8F2083DA-B178-8B96-E1AE-20A4188E9952" clientDependency="DCE.445D23C2-32D0-B7E6-9BA7-DA5D287232B4"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:InitialNode xmi.id="DCE.0512ED0D-D9A6-7EB6-A227-A1836FE0D66E" name="Unnamed" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" outgoing="DCE.6B8C7985-B654-7A66-1C34-8706BECD082D"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:InitialNode>
+<UML:MultiFlow xmi.id="DCE.6B8C7985-B654-7A66-1C34-8706BECD082D" source="DCE.0512ED0D-D9A6-7EB6-A227-A1836FE0D66E" target="DCE.A5B4A710-7DDE-9D26-5A36-9966C22A4425" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:Comment xmi.id="DCE.9D6A0599-F19A-B70B-0DBD-0C22C096E43B" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" annotatedElement="DCE.A5B4A710-7DDE-9D26-5A36-9966C22A4425"><UML:Element.presentation>
+
+</UML:Element.presentation>
+<UML:Comment.body>Obejmuje spr. poprawnoœci po³¹czenia</UML:Comment.body></UML:Comment>
+<UML:DecisionMergeNode xmi.id="DCE.D445C80F-069C-662F-EDFB-F010B7ACBDBD" name="Unnamed" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" incoming="DCE.8F2083DA-B178-8B96-E1AE-20A4188E9952" outgoing="DCE.AB8026EE-80E4-FAE3-7929-C7D08B3BF8D1 DCE.4340B253-D42A-CF1D-D46B-7518EAF725B8"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:DecisionMergeNode>
+<UML:MultiFlow xmi.id="DCE.8F2083DA-B178-8B96-E1AE-20A4188E9952" source="DCE.A5B4A710-7DDE-9D26-5A36-9966C22A4425" target="DCE.D445C80F-069C-662F-EDFB-F010B7ACBDBD" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:InvocationNode xmi.id="DCE.9621DFB5-D13B-89B7-7A75-25B8F835AC25" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" incoming="DCE.AB8026EE-80E4-FAE3-7929-C7D08B3BF8D1" name="Wybierz rozdaj¹cego i przydziel mu token" outgoing="DCE.D52D33A9-15D5-6CA6-31ED-7A3BBE566CD2"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+
+
+<UML:MultiFlow xmi.id="DCE.AB8026EE-80E4-FAE3-7929-C7D08B3BF8D1" source="DCE.D445C80F-069C-662F-EDFB-F010B7ACBDBD" target="DCE.9621DFB5-D13B-89B7-7A75-25B8F835AC25" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" name="[ jeœli pierwsze rozdanie ]"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Constraint xmi.id="DCE.6696555A-8AFD-E521-BAB9-C030B87670E8" constrainedElement="DCE.AB8026EE-80E4-FAE3-7929-C7D08B3BF8D1" owner="DCE.AB8026EE-80E4-FAE3-7929-C7D08B3BF8D1" name="jesli pierwsze rozdanie"><UML:Constraint.specification>
+<UML:Expression xmi.id="DCE.26C64C78-4ADC-8D53-F88E-0CE0B2DE5FD9">
+<UML:Expression.body>jesli pierwsze rozdanie</UML:Expression.body></UML:Expression></UML:Constraint.specification></UML:Constraint>
+
+</UML:Element.ownedElement></UML:MultiFlow>
+<UML:InvocationNode xmi.id="DCE.025A5431-F8BF-750A-10FE-95A75F222B40" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" name="Przydziel  token kolejnemu graczowi" incoming="DCE.4340B253-D42A-CF1D-D46B-7518EAF725B8" outgoing="DCE.EF118062-CD9A-3FEF-C28F-BC6F5BF5D658"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:MultiFlow xmi.id="DCE.4340B253-D42A-CF1D-D46B-7518EAF725B8" source="DCE.D445C80F-069C-662F-EDFB-F010B7ACBDBD" target="DCE.025A5431-F8BF-750A-10FE-95A75F222B40" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" isFinal="true" name="[ jeœli kolejne rozdanie ]"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Constraint xmi.id="DCE.64EAC4DF-D24F-3114-5DC1-3944F0DE9874" name="jeœli kolejne rozdanie" constrainedElement="DCE.4340B253-D42A-CF1D-D46B-7518EAF725B8" owner="DCE.4340B253-D42A-CF1D-D46B-7518EAF725B8"><UML:Constraint.specification>
+<UML:Expression xmi.id="DCE.F84A31A4-3CB7-D255-AFD5-9692FF144804">
+<UML:Expression.body> jeœli kolejne rozdanie</UML:Expression.body></UML:Expression></UML:Constraint.specification></UML:Constraint></UML:Element.ownedElement></UML:MultiFlow>
+
+
+<UML:InvocationNode xmi.id="DCE.894D0232-E4A5-3A5F-E7F6-BD1806C2346A" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" name="Pobierz SB od gracza nastêpnego po rozdaj¹cym" incoming="DCE.CE246D1D-C486-51A1-E318-CBD189F59A69" outgoing="DCE.F09530DB-735E-B261-51FA-0E3FAB88BA4C"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:JoinForkNode xmi.id="DCE.4EFBDFA4-F6BD-9255-9A1F-8F43BBB74275" name="Unnamed" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" incoming="DCE.D52D33A9-15D5-6CA6-31ED-7A3BBE566CD2 DCE.EF118062-CD9A-3FEF-C28F-BC6F5BF5D658" outgoing="DCE.CE246D1D-C486-51A1-E318-CBD189F59A69"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:JoinForkNode>
+<UML:MultiFlow xmi.id="DCE.D52D33A9-15D5-6CA6-31ED-7A3BBE566CD2" source="DCE.9621DFB5-D13B-89B7-7A75-25B8F835AC25" target="DCE.4EFBDFA4-F6BD-9255-9A1F-8F43BBB74275" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:MultiFlow xmi.id="DCE.EF118062-CD9A-3FEF-C28F-BC6F5BF5D658" source="DCE.025A5431-F8BF-750A-10FE-95A75F222B40" target="DCE.4EFBDFA4-F6BD-9255-9A1F-8F43BBB74275" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:MultiFlow xmi.id="DCE.CE246D1D-C486-51A1-E318-CBD189F59A69" source="DCE.4EFBDFA4-F6BD-9255-9A1F-8F43BBB74275" target="DCE.894D0232-E4A5-3A5F-E7F6-BD1806C2346A" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:InvocationNode xmi.id="DCE.188C4C0A-7D26-115C-AA8F-8106182D8C04" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" name="Pobierz BB od gracza nastêpnego po wp³acaj¹cym SB" incoming="DCE.F09530DB-735E-B261-51FA-0E3FAB88BA4C" outgoing="DCE.C7C5F672-258B-4B86-D858-B490629A18BC"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:MultiFlow xmi.id="DCE.F09530DB-735E-B261-51FA-0E3FAB88BA4C" source="DCE.894D0232-E4A5-3A5F-E7F6-BD1806C2346A" target="DCE.188C4C0A-7D26-115C-AA8F-8106182D8C04" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:InvocationNode xmi.id="DCE.316A29A5-A6C5-A3E4-FB82-3F7F18817A2E" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" name="Rozdaj karty graczom" incoming="DCE.C7C5F672-258B-4B86-D858-B490629A18BC" outgoing="DCE.62022A8E-9D67-7C81-6D47-600213004E6A"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:MultiFlow xmi.id="DCE.C7C5F672-258B-4B86-D858-B490629A18BC" source="DCE.188C4C0A-7D26-115C-AA8F-8106182D8C04" target="DCE.316A29A5-A6C5-A3E4-FB82-3F7F18817A2E" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:InvocationNode xmi.id="DCE.783D6963-537D-CB1C-239B-3FA77AFEB701" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" incoming="DCE.62022A8E-9D67-7C81-6D47-600213004E6A" name="Rozpocznij licytacjê preflop" outgoing="DCE.602A4EB7-8898-2E3E-859D-FF749AA36015"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:MultiFlow xmi.id="DCE.62022A8E-9D67-7C81-6D47-600213004E6A" source="DCE.316A29A5-A6C5-A3E4-FB82-3F7F18817A2E" target="DCE.783D6963-537D-CB1C-239B-3FA77AFEB701" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:DecisionMergeNode xmi.id="DCE.02478DEA-5731-573B-373B-4C9C1405377B" name="Unnamed" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" incoming="DCE.602A4EB7-8898-2E3E-859D-FF749AA36015" outgoing="DCE.8633A2D1-0975-9EF7-60B0-4C9EC202ACFC DCE.6D4AB3BD-BD3F-B13F-6BF9-6CD0A396047E DCE.8BB872BC-F3E5-A6B0-4798-B505FE71A40A"><UML:Element.presentation>
+
+
+</UML:Element.presentation></UML:DecisionMergeNode>
+<UML:MultiFlow xmi.id="DCE.602A4EB7-8898-2E3E-859D-FF749AA36015" source="DCE.783D6963-537D-CB1C-239B-3FA77AFEB701" target="DCE.02478DEA-5731-573B-373B-4C9C1405377B" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:InvocationNode xmi.id="DCE.DF2F9C78-4F11-94E8-4B9C-12F773B0AE2F" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" name="Gracz wygrywa" outgoing="DCE.69E335A4-B5FD-809C-6175-25A9DD86C353" incoming="DCE.8633A2D1-0975-9EF7-60B0-4C9EC202ACFC DCE.2EF95D3A-D116-6AFC-97BB-5A001828B722 DCE.6C592BEE-F0B6-6110-0E27-A9320E917AC7 DCE.72824A11-3007-10A9-86C6-9CC9B73798EC"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:InvocationNode xmi.id="DCE.97A3F117-351D-7B88-1E74-EB2FF5FAD3D4" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" incoming="DCE.69E335A4-B5FD-809C-6175-25A9DD86C353 DCE.4F3ED033-B27C-F784-CFB1-F17DAB75452E" name="Aktualizuj stan ¿etonów graczy" outgoing="DCE.1E3BF928-55BB-CB52-9CCF-718EAD77A16D"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:MultiFlow xmi.id="DCE.69E335A4-B5FD-809C-6175-25A9DD86C353" source="DCE.DF2F9C78-4F11-94E8-4B9C-12F773B0AE2F" target="DCE.97A3F117-351D-7B88-1E74-EB2FF5FAD3D4" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:InvocationNode xmi.id="DCE.C64F18D0-4F9C-2A34-4A49-14EC311560F2" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" incoming="DCE.1E3BF928-55BB-CB52-9CCF-718EAD77A16D" name="Przeka¿ token  gracza rozdaj¹cego" outgoing="DCE.DD844C24-C9EC-F327-7B2B-9108F716DF61"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:MultiFlow xmi.id="DCE.1E3BF928-55BB-CB52-9CCF-718EAD77A16D" source="DCE.97A3F117-351D-7B88-1E74-EB2FF5FAD3D4" target="DCE.C64F18D0-4F9C-2A34-4A49-14EC311560F2" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:ActivityFinalNode xmi.id="DCE.0C34E582-A644-698B-1BC9-37EA491D3D6A" name="Unnamed" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" incoming="DCE.DD844C24-C9EC-F327-7B2B-9108F716DF61"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:ActivityFinalNode>
+<UML:MultiFlow xmi.id="DCE.DD844C24-C9EC-F327-7B2B-9108F716DF61" source="DCE.C64F18D0-4F9C-2A34-4A49-14EC311560F2" target="DCE.0C34E582-A644-698B-1BC9-37EA491D3D6A" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:MultiFlow xmi.id="DCE.8633A2D1-0975-9EF7-60B0-4C9EC202ACFC" source="DCE.02478DEA-5731-573B-373B-4C9C1405377B" target="DCE.DF2F9C78-4F11-94E8-4B9C-12F773B0AE2F" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" name="[ zosta³ 1 gracz ]"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Constraint xmi.id="DCE.016E65D4-7EE4-765D-68B7-AED78C89A3E8" name="zostal 1 gracz" constrainedElement="DCE.8633A2D1-0975-9EF7-60B0-4C9EC202ACFC" owner="DCE.8633A2D1-0975-9EF7-60B0-4C9EC202ACFC"><UML:Constraint.specification>
+<UML:Expression xmi.id="DCE.F64EBC37-8DCC-4E4C-7014-99FEBC1AA304">
+<UML:Expression.body>zostal 1 gracz</UML:Expression.body></UML:Expression></UML:Constraint.specification></UML:Constraint></UML:Element.ownedElement></UML:MultiFlow>
+<UML:InvocationNode xmi.id="DCE.F4176CCB-46C1-91D2-B10E-7BC46168AEA2" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" incoming="DCE.6D4AB3BD-BD3F-B13F-6BF9-6CD0A396047E DCE.E67A79F6-BC93-31EE-E3DD-83D772B662DA DCE.0AF42F58-8DBC-FB25-0548-856CD92F0080 DCE.625E1C05-FDA2-643A-404C-F19669B6E322" name="Poka¿ karty graczy" outgoing="DCE.710EC797-3DA1-ACDD-BD7B-738AD90424C1"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:MultiFlow xmi.id="DCE.6D4AB3BD-BD3F-B13F-6BF9-6CD0A396047E" source="DCE.02478DEA-5731-573B-373B-4C9C1405377B" target="DCE.F4176CCB-46C1-91D2-B10E-7BC46168AEA2" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" name="[ zosta³ 1 gracz i/lub sami gracze obstawiaj¹cy ALL IN ]"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:InvocationNode xmi.id="DCE.41CF8DC3-8EBF-CB97-8FDA-BB06357CDDB7" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" incoming="DCE.710EC797-3DA1-ACDD-BD7B-738AD90424C1" name="Wy³ó¿ na stó³ brakuj¹ce karty" outgoing="DCE.48340A86-22D7-C479-D3D1-30889378B45C"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:MultiFlow xmi.id="DCE.710EC797-3DA1-ACDD-BD7B-738AD90424C1" source="DCE.F4176CCB-46C1-91D2-B10E-7BC46168AEA2" target="DCE.41CF8DC3-8EBF-CB97-8FDA-BB06357CDDB7" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:InvocationNode xmi.id="DCE.603A7F6B-B12B-174C-BC0A-F80F2CE8492D" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" incoming="DCE.48340A86-22D7-C479-D3D1-30889378B45C DCE.5B877233-5BBC-C566-2271-3C632349822C" name="SprawdŸ wyniki" outgoing="DCE.4F3ED033-B27C-F784-CFB1-F17DAB75452E"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:MultiFlow xmi.id="DCE.48340A86-22D7-C479-D3D1-30889378B45C" source="DCE.41CF8DC3-8EBF-CB97-8FDA-BB06357CDDB7" target="DCE.603A7F6B-B12B-174C-BC0A-F80F2CE8492D" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:MultiFlow xmi.id="DCE.4F3ED033-B27C-F784-CFB1-F17DAB75452E" source="DCE.603A7F6B-B12B-174C-BC0A-F80F2CE8492D" target="DCE.97A3F117-351D-7B88-1E74-EB2FF5FAD3D4" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:InvocationNode xmi.id="DCE.2F6DF857-16C3-AEFD-19CF-72ADF6A17ACD" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" incoming="DCE.8BB872BC-F3E5-A6B0-4798-B505FE71A40A" name="Wy³ó¿ flop" outgoing="DCE.2567BE58-8DE0-6079-FF1D-9F0F76008855"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:MultiFlow xmi.id="DCE.8BB872BC-F3E5-A6B0-4798-B505FE71A40A" source="DCE.02478DEA-5731-573B-373B-4C9C1405377B" target="DCE.2F6DF857-16C3-AEFD-19CF-72ADF6A17ACD" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:InvocationNode xmi.id="DCE.8F3D3F35-FB02-7177-B8EF-9BC70F3AAD20" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" incoming="DCE.2567BE58-8DE0-6079-FF1D-9F0F76008855" name="Licytacja flop" outgoing="DCE.65822938-0EEF-553A-C6DC-DBE5D613E268"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:MultiFlow xmi.id="DCE.2567BE58-8DE0-6079-FF1D-9F0F76008855" source="DCE.2F6DF857-16C3-AEFD-19CF-72ADF6A17ACD" target="DCE.8F3D3F35-FB02-7177-B8EF-9BC70F3AAD20" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:DecisionMergeNode xmi.id="DCE.86014344-CAAE-3E54-92FA-8145CB546AA2" name="Unnamed" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" incoming="DCE.65822938-0EEF-553A-C6DC-DBE5D613E268" outgoing="DCE.B3E026C4-6062-7A10-CF4E-1A4288848C67 DCE.E67A79F6-BC93-31EE-E3DD-83D772B662DA DCE.6C592BEE-F0B6-6110-0E27-A9320E917AC7"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:DecisionMergeNode>
+<UML:MultiFlow xmi.id="DCE.65822938-0EEF-553A-C6DC-DBE5D613E268" source="DCE.8F3D3F35-FB02-7177-B8EF-9BC70F3AAD20" target="DCE.86014344-CAAE-3E54-92FA-8145CB546AA2" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:InvocationNode xmi.id="DCE.D0DA133E-DCDA-9002-09ED-D8E27996E440" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" incoming="DCE.B3E026C4-6062-7A10-CF4E-1A4288848C67" name="Wy³óz turn" outgoing="DCE.59C0670C-572E-C911-B91E-99918D93DAAB"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:MultiFlow xmi.id="DCE.B3E026C4-6062-7A10-CF4E-1A4288848C67" source="DCE.86014344-CAAE-3E54-92FA-8145CB546AA2" target="DCE.D0DA133E-DCDA-9002-09ED-D8E27996E440" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:InvocationNode xmi.id="DCE.D0138494-F04E-5D97-344A-BDCE4A8A66EA" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" incoming="DCE.59C0670C-572E-C911-B91E-99918D93DAAB" name="Licytacja turn" outgoing="DCE.9D34F5E6-529A-B15C-630E-8D51C51EBB29"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:MultiFlow xmi.id="DCE.59C0670C-572E-C911-B91E-99918D93DAAB" source="DCE.D0DA133E-DCDA-9002-09ED-D8E27996E440" target="DCE.D0138494-F04E-5D97-344A-BDCE4A8A66EA" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:DecisionMergeNode xmi.id="DCE.E1A5174E-C652-4A3B-32A6-82E1536B7DDC" name="Unnamed" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" incoming="DCE.9D34F5E6-529A-B15C-630E-8D51C51EBB29" outgoing="DCE.EEC91B06-24BD-D042-2952-7E9434781BB9 DCE.FC3027AF-16CE-AA67-B637-224F9C1F23CD DCE.0AF42F58-8DBC-FB25-0548-856CD92F0080 DCE.72824A11-3007-10A9-86C6-9CC9B73798EC"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:DecisionMergeNode>
+<UML:MultiFlow xmi.id="DCE.9D34F5E6-529A-B15C-630E-8D51C51EBB29" source="DCE.D0138494-F04E-5D97-344A-BDCE4A8A66EA" target="DCE.E1A5174E-C652-4A3B-32A6-82E1536B7DDC" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:InvocationNode xmi.id="DCE.73AF5F46-D05F-6365-64BC-9419034C5C94" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" incoming="DCE.EEC91B06-24BD-D042-2952-7E9434781BB9" name="Wy³ó¿ river" outgoing="DCE.91B87E08-630E-3057-E72F-B78EE0189D97"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:MultiFlow xmi.id="DCE.EEC91B06-24BD-D042-2952-7E9434781BB9" source="DCE.E1A5174E-C652-4A3B-32A6-82E1536B7DDC" target="DCE.73AF5F46-D05F-6365-64BC-9419034C5C94" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:InvocationNode xmi.id="DCE.D771FF40-2524-2F84-BD3E-92220B8B037D" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" incoming="DCE.91B87E08-630E-3057-E72F-B78EE0189D97" name="Licytacja river" outgoing="DCE.5BED5917-FA84-C97D-CEC8-0B1E52B90D3F"><UML:Element.presentation>
+</UML:Element.presentation></UML:InvocationNode>
+<UML:MultiFlow xmi.id="DCE.91B87E08-630E-3057-E72F-B78EE0189D97" source="DCE.73AF5F46-D05F-6365-64BC-9419034C5C94" target="DCE.D771FF40-2524-2F84-BD3E-92220B8B037D" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:DecisionMergeNode xmi.id="DCE.1D85EA4E-8804-6ACE-FBE0-DC97902DDD58" name="Unnamed" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" incoming="DCE.5BED5917-FA84-C97D-CEC8-0B1E52B90D3F" outgoing="DCE.5B877233-5BBC-C566-2271-3C632349822C DCE.2EF95D3A-D116-6AFC-97BB-5A001828B722 DCE.625E1C05-FDA2-643A-404C-F19669B6E322"><UML:Element.presentation>
+
+</UML:Element.presentation></UML:DecisionMergeNode>
+<UML:MultiFlow xmi.id="DCE.5BED5917-FA84-C97D-CEC8-0B1E52B90D3F" source="DCE.D771FF40-2524-2F84-BD3E-92220B8B037D" target="DCE.1D85EA4E-8804-6ACE-FBE0-DC97902DDD58" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:MultiFlow xmi.id="DCE.5B877233-5BBC-C566-2271-3C632349822C" source="DCE.1D85EA4E-8804-6ACE-FBE0-DC97902DDD58" target="DCE.603A7F6B-B12B-174C-BC0A-F80F2CE8492D" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:MultiFlow xmi.id="DCE.2EF95D3A-D116-6AFC-97BB-5A001828B722" source="DCE.1D85EA4E-8804-6ACE-FBE0-DC97902DDD58" target="DCE.DF2F9C78-4F11-94E8-4B9C-12F773B0AE2F" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" name="[ zosta³ 1 gracz]"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:MultiFlow xmi.id="DCE.E67A79F6-BC93-31EE-E3DD-83D772B662DA" source="DCE.86014344-CAAE-3E54-92FA-8145CB546AA2" target="DCE.F4176CCB-46C1-91D2-B10E-7BC46168AEA2" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" name="[ zosta³ 1 gracz i/lub sami graczy obstawiaj¹cy ALL IN ]"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:MultiFlow xmi.id="DCE.6C592BEE-F0B6-6110-0E27-A9320E917AC7" source="DCE.86014344-CAAE-3E54-92FA-8145CB546AA2" target="DCE.DF2F9C78-4F11-94E8-4B9C-12F773B0AE2F" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" name="[ zosta³ 1 gracz ]"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+
+<UML:MultiFlow xmi.id="DCE.FC3027AF-16CE-AA67-B637-224F9C1F23CD" source="DCE.E1A5174E-C652-4A3B-32A6-82E1536B7DDC" target="DCE.CB636023-7A32-0679-904D-1584DADCDF41" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:MultiFlow xmi.id="DCE.0AF42F58-8DBC-FB25-0548-856CD92F0080" source="DCE.E1A5174E-C652-4A3B-32A6-82E1536B7DDC" target="DCE.F4176CCB-46C1-91D2-B10E-7BC46168AEA2" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" name="[ zosta³ 1 gracz i/lub sami gracze obstawiaj¹cy ALL IN ]"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:MultiFlow xmi.id="DCE.72824A11-3007-10A9-86C6-9CC9B73798EC" source="DCE.E1A5174E-C652-4A3B-32A6-82E1536B7DDC" target="DCE.DF2F9C78-4F11-94E8-4B9C-12F773B0AE2F" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" name="[ zosta³ 1 gracz ]"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow>
+<UML:MultiFlow xmi.id="DCE.625E1C05-FDA2-643A-404C-F19669B6E322" source="DCE.1D85EA4E-8804-6ACE-FBE0-DC97902DDD58" target="DCE.F4176CCB-46C1-91D2-B10E-7BC46168AEA2" owner="DCE.A9C735FE-5077-3EB5-A33A-9161575429DE" name="[ zosta³ 1 gracz i/lub sami gracze obsawiaj¹cy ALL IN ]"><UML:Element.presentation>
+</UML:Element.presentation></UML:MultiFlow></UML:Element.ownedElement></UML:Activity>
+<UML:Dependency xmi.id="DCE.445D23C2-32D0-B7E6-9BA7-DA5D287232B4" owner="DCE.ED1C79EC-CDF1-C732-448F-29D183B53485" client="DCE.A5B4A710-7DDE-9D26-5A36-9966C22A4425" supplier="DCE.B2F92569-40F4-FF9A-7505-2B242CAA8310"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency>
+<UML:Dependency xmi.id="DCE.B11B3D01-8B4E-E21D-E71F-3E5E92E8232D" owner="DCE.ED1C79EC-CDF1-C732-448F-29D183B53485" client="DCE.7617CC3A-520C-E1DF-7D52-821987E6C703" supplier="DCE.F4A943F8-DA2B-6106-1018-AEDA51B0DE03" name="nr_gracza=1"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency>
+<UML:Dependency xmi.id="DCE.4DC56C92-FF0A-8002-5F95-8910F4F21CA3" owner="DCE.ED1C79EC-CDF1-C732-448F-29D183B53485" client="DCE.BCE03B5F-B0EA-72F3-2676-5FAFDE2BD89B" supplier="DCE.28FDD002-8CC9-7949-B7DD-CB071B95A9F8"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency>
+<UML:Dependency xmi.id="DCE.FDD763EA-16B6-81AC-9090-121719E71C22" owner="DCE.ED1C79EC-CDF1-C732-448F-29D183B53485" client="DCE.F4A943F8-DA2B-6106-1018-AEDA51B0DE03" supplier="DCE.3646AE95-1BDA-7040-DBCC-6EEA469ABD63"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency></UML:Element.ownedElement></UML:Project></XMI.content> </XMI>
