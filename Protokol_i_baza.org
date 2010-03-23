@@ -1,0 +1,65 @@
+* Protokół
+  Opis ideowy, małe litery to dane, WIELKIE  to komunikaty.
+** Inicjowane od strony klienta
+   (-> do serwera, <- do klienta)
+   \begin{verbatim}
+   -> LOGIN(uname, pass)
+      <- WELCOME(sessid)
+      <- GET_LOST
+   -> CREATE_USER(uname, pass)
+      tworzy usera i go loguje jesli udalo sie stworzyc
+      <- WELCOME(sessid)
+      <- GET\_LOST
+   -> SETAVATAR(blob, typ)
+      blob - binarne dane, typ - gif/jpg/png/...
+      <- SUCCESS
+      <- FAIL(cause) // jakiś meaningfull komunikat
+   -> SIT(table_id, [pass])
+      <- BAD_PASS
+      <- IN
+   -> DECIDE(action, sum)
+      action - jedna z akcji możliwych w rozgrywce (check, allin itd.)
+      sum - pieniążki skojarzone z tą akcją (ile podbił np.)
+      <- FAIL
+      <- SUCCESS
+   -> MESSAGE(content)
+      wiadomość na chacie
+   \end{verbatim}
+** Inicjowane od strony serwera
+   \begin{verbatim}
+   <- TABLE_USERS(login, moneyin, avatar_blob, avatar_typ[, login ...])
+      wysyła do klienta informacje o wszystkich graczach
+      i z jaką kasą przybyli
+   <- TABLE_CARD(card)
+      pojawienie sie na stole nowej karty
+   <- USERACTION(login, action, sum)
+      wysyłane do wszystkich klientów po podjęciu przez aktywnego gracza
+      decyzji, treść analogicznie jak w DECIDE
+   <- WIN(login)
+      informacja o wygranym loginie, jednocześnie koniec rozgrywki
+      i początek następnej na tym samym stole.
+   <- SIDEPOT(login, sum[, login, sum, ...])
+      informacja o sumach bocznych, dla każdego loginu suma
+   <- MESSAGE(login, content)
+      wiadomość na czacie od użytkownika
+   \end{verbatim}
+
+* Baza/XML
+  To jest tylko sugestia:
+** Users
+   int pkey id\\
+   vchar login\\
+   vchar pass\\
+   int sum \emph{stan konta}\\
+   int wins \emph{ilość wygranych}\\
+   datetime bankrupt\_date \emph{oznaczane kiedy user zbankrutował, system daje userowi z automatu jakąś kasę raz na dobę jeśli zbankrutował, opisane gdzie indziej dokładnie} \\
+   blob avatar\\
+   vchar avatar\_type\\
+** Wins
+   int pkey id\\
+   int userid\\
+   int sum\\
+   datetime date\\
+   vchar scheme \emph{układ z jakim user wygrał}\\
+
+   
