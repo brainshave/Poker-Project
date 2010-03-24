@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE XMI SYSTEM "C:\Users\student\.netbeans\6.7\.uml\config\UML_2.0EMBT.dtd"> --><XMI xmlns:UML="omg.org/UML/1.4" xmi.version="2.0"> <XMI.header> <XMI.metamodel xmi.name="UML" xmi.version="1.4"/> <XMI.documentation> <XMI.exporter> Embarcadero's Describe </XMI.exporter> <XMI.exporterVersion> 6.0 </XMI.exporterVersion> </XMI.documentation> </XMI.header> <XMI.content> <UML:Project xmi.id="DCE.E9AE0A49-2652-E17A-2BCD-09FF872C6C0A" mode="Design" defaultLanguage="UML" projVersion="6.1.4.837" name="Logowanie"><UML:Element.ownedElement>
+
+
+
+
+
+
+
+
+
+<UML:Package xmi.id="DCE.ED5B3903-E5AE-FE68-0ACA-455E134B20AA" name="Logowanie" owner="DCE.E9AE0A49-2652-E17A-2BCD-09FF872C6C0A"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:UseCase xmi.id="DCE.D4C7581F-F15B-E834-E31D-1373A7461650" name="Zaloguj do lobby" owner="DCE.ED5B3903-E5AE-FE68-0ACA-455E134B20AA"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Include xmi.id="DCE.1E53B83E-D4F2-6383-777D-865C9C23DE97" owner="DCE.D4C7581F-F15B-E834-E31D-1373A7461650" target="DCE.F2021C9A-9D21-D526-0A18-948F50043FAE"><UML:Element.presentation>
+</UML:Element.presentation></UML:Include>
+<UML:Include xmi.id="DCE.4282CF9E-181C-FF78-90BF-3BDABFD076FA" owner="DCE.D4C7581F-F15B-E834-E31D-1373A7461650" target="DCE.F5BE4750-55D3-2648-8F3D-1292AFD59CFA"><UML:Element.presentation>
+</UML:Element.presentation></UML:Include></UML:Element.ownedElement></UML:UseCase>
+<UML:UseCase xmi.id="DCE.F36BA1DD-FFC9-97A4-B521-888BD1500790" name="Dodaj awatar" owner="DCE.ED5B3903-E5AE-FE68-0ACA-455E134B20AA" extendedBy="DCE.29FC63A1-6F27-2B1A-B1F0-7AF26324078B"><UML:Element.presentation>
+</UML:Element.presentation></UML:UseCase>
+<UML:UseCase xmi.id="DCE.F5BE4750-55D3-2648-8F3D-1292AFD59CFA" name="Wpisz login i has³o" owner="DCE.ED5B3903-E5AE-FE68-0ACA-455E134B20AA" includedBy="DCE.4282CF9E-181C-FF78-90BF-3BDABFD076FA"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Extend xmi.id="DCE.61F3AB2B-BFF7-C7BF-C1F7-3FC6AE26AD0D" owner="DCE.F5BE4750-55D3-2648-8F3D-1292AFD59CFA" target="DCE.C1D12E58-568B-52B3-17A9-5935CB37E302"><UML:Element.presentation>
+</UML:Element.presentation></UML:Extend></UML:Element.ownedElement></UML:UseCase>
+<UML:UseCase xmi.id="DCE.CA1CAB64-984D-4CA7-58C3-A2F25314075B" name="Wpisz adres i port lobby" owner="DCE.ED5B3903-E5AE-FE68-0ACA-455E134B20AA" extendedBy="DCE.65CA8AFC-7696-9EE8-7FEF-F04F76FE0642"><UML:Element.presentation>
+</UML:Element.presentation></UML:UseCase>
+<UML:UseCase xmi.id="DCE.C1D12E58-568B-52B3-17A9-5935CB37E302" name="Za³ó¿ konto" owner="DCE.ED5B3903-E5AE-FE68-0ACA-455E134B20AA" extendedBy="DCE.61F3AB2B-BFF7-C7BF-C1F7-3FC6AE26AD0D"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+
+
+<UML:Include xmi.id="DCE.7CFF16A5-6BBF-B9DE-C939-AF59C76E96CB" owner="DCE.C1D12E58-568B-52B3-17A9-5935CB37E302" target="DCE.ED2E4310-F0D3-CA1E-8B58-602D44DEEA5A"><UML:Element.presentation>
+</UML:Element.presentation></UML:Include></UML:Element.ownedElement></UML:UseCase>
+<UML:UseCase xmi.id="DCE.ED2E4310-F0D3-CA1E-8B58-602D44DEEA5A" name="Wpisz dane rejestracji (login, haslo)" owner="DCE.ED5B3903-E5AE-FE68-0ACA-455E134B20AA" includedBy="DCE.7CFF16A5-6BBF-B9DE-C939-AF59C76E96CB"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Extend xmi.id="DCE.29FC63A1-6F27-2B1A-B1F0-7AF26324078B" owner="DCE.ED2E4310-F0D3-CA1E-8B58-602D44DEEA5A" target="DCE.F36BA1DD-FFC9-97A4-B521-888BD1500790"><UML:Element.presentation>
+</UML:Element.presentation></UML:Extend></UML:Element.ownedElement></UML:UseCase>
+<UML:UseCase xmi.id="DCE.F2021C9A-9D21-D526-0A18-948F50043FAE" name="Wybierz lobby z listy" owner="DCE.ED5B3903-E5AE-FE68-0ACA-455E134B20AA" includedBy="DCE.1E53B83E-D4F2-6383-777D-865C9C23DE97"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Extend xmi.id="DCE.65CA8AFC-7696-9EE8-7FEF-F04F76FE0642" owner="DCE.F2021C9A-9D21-D526-0A18-948F50043FAE" target="DCE.CA1CAB64-984D-4CA7-58C3-A2F25314075B"><UML:Element.presentation>
+</UML:Element.presentation></UML:Extend></UML:Element.ownedElement></UML:UseCase></UML:Element.ownedElement></UML:Package></UML:Element.ownedElement></UML:Project></XMI.content> </XMI>
